@@ -11,7 +11,7 @@ initgraph(&gd,&gm,"c:\\turboc3\\bgi");
 
 while(!kbhit())
 {
-setcolor(RED);
+setcolor(blue);
 
 if(x<20)
 	x_inc+=5;
